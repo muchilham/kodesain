@@ -1,0 +1,463 @@
+html,body,div,span,h2,h3,h4,p,blockquote,a,img,b,u,i,nav ul,nav li,fieldset,form,label,table,tr,th,td,article,footer,header,menu,nav{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,footer, header,menu, nav{display: block;}
+ul{list-style:none;margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+html{
+	padding:0;
+	margin:0;
+	-webkit-transition: all 0.9s linear;
+	-moz-transition: all 0.9s linear;
+	-o-transition: all 0.9s linear;
+	transition: all 0.9s linear;
+}
+
+body{
+	-webkit-transition: all 0.9s linear;
+	-moz-transition: all 0.9s linear;
+	-o-transition: all 0.9s linear;
+	transition: all 0.9s linear;
+}
+ 
+ .wrap{
+	width:80%;
+	margin:0 auto;
+ }
+ .header_top{
+	padding:15px 0;
+	position: fixed;
+	z-index:9;
+	width: 100%;
+	clear: both;
+	background:#1BBC9B;
+	margin-bottom:20px;
+ }
+  .logo{
+	float:left;
+	font-family:raleway;
+	margin-left:40px;
+	color:#FFF;
+	letter-spacing:1px;
+	font-style:italic;
+	font-weight:500;
+ }
+.sidebar {
+	position:fixed;
+    float: left;
+    width: 200px;
+    background-color:#1a1c1d;
+	-webkit-transition: all 0.9s linear;
+	-moz-transition: all 0.9s linear;
+	-o-transition: all 0.9s linear;
+	transition: all 0.9s linear;
+    z-index: 1;
+	position:absolute;
+	text-align:center;
+	padding:10px 0px;
+	min-height: 500%;
+
+}
+
+.content{
+	margin:0px;
+	padding:0px;
+}
+
+ .menu{
+	 margin-top:50px;
+	 float:none;
+	 height:auto;
+	 position:relative;
+	 width:100%;
+	 height:200px;
+
+ }
+  .menu li{
+	display:inline-block;
+ }
+ 
+.menu li.user a img{
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	border-radius: 80px;
+	margin-top:5px;
+}
+
+.menu li.user span{
+	color:#FFF;
+	margin-top:10px;
+    display:block;
+    font-family: Raleway;
+}
+
+#userButton { 
+    display:inline-block;  
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+}
+
+.menu2{
+	margin-top:10px;
+	padding:10px;
+}
+
+.menu2 a{
+	font-family:raleway;
+	margin-top:50px;
+	padding:10px 20px;
+	background:#17a084;
+    border-bottom:none;
+	border-top: none;
+    border-left: none;
+    border-right: none;
+    color:#FFF;
+    border-radius:2px;
+	-webkit-transition: all 0.6s linear;
+	-moz-transition: all 0.6s linear;
+	-o-transition: all 0.6s linear;
+	transition: all 0.6s linear;
+}
+
+.menu2 a:hover{
+	background:#1ed3ae;
+    color:#FFF;
+	-webkit-transition: all 0.6s linear;
+	-moz-transition: all 0.6s linear;
+	-o-transition: all 0.6s linear;
+	transition: all 0.6s linear;
+	
+}
+
+#userButton { 
+    display:inline-block;  
+    position:relative;
+    z-index:30;
+    cursor:pointer;
+}
+
+.view{
+	width: 100%;
+	padding:0px;
+	margin:10px 0px 0px 0px;
+	text-align:left;
+	background:#1d1f21;
+}
+
+.view span{
+	font-family:raleway;
+	float:right;
+	margin-top:8px;
+	color:#666;
+	margin-right:10px;
+	font-size:16px;
+	font-weight:600;
+}
+
+.main{
+	font-family:raleway;
+	padding:10px;
+	text-align:left;
+	margin-left:30px;
+	font-size:14px;
+	font-weight:500;
+}
+
+.main ul{
+	list-style:circle;
+	color: #FFF;
+}
+
+.main ul li{
+	padding:5px;
+}
+
+.main ul li a{
+	color:#666;
+}
+
+.main ul li a:hover{
+	-webkit-transition: all 0.6s linear;
+	-moz-transition: all 0.6s linear;
+	-o-transition: all 0.6s linear;
+	transition: all 0.6s linear;
+	color:#FFF;
+	text-decoration:underline;
+}
+
+.wrap{
+	
+	float:right;
+	padding:50px;
+	margin-left:5%;
+}
+
+
+table{
+	margin:25px 20px 0px 20px;
+    border:1px solid #149178;
+    border-radius:0px;
+    width:100%;
+    background:#1BBC9B;
+	margin-bottom:40px;
+	font-family:Raleway;
+	text-align:center;
+}
+
+table td{
+	padding:5px;
+	vertical-align:middle;
+	text-align:center;
+	font-family:Raleway;
+	font-size:16px;
+	font-weight:600;
+}
+
+table img{
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+table button{
+    font-family:Raleway;
+    background:#17a084;
+    border-bottom:4px solid #098e73;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:#FFF;
+    font-size:0.85em;
+    padding:8px 20px;
+    border-radius:4px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+
+table button:hover{
+        background:#1ed3ae;
+        color:#FFF;
+        border-bottom:4px solid #12b997;
+}
+
+table form{
+	display: block;
+}
+
+.button{
+	margin:0px 20px;
+    font-family:Raleway;
+    background:#FFF;
+    color:#00B16A;
+    font-size:1em;
+    padding:8px 20px;
+    border-radius:4px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+}
+.button:hover{
+        background:#17a084;
+        color:#FFF;
+}
+
+.aktif{
+	background-color: #00bb23;
+	color: #FFF;
+	padding:5px 15px;
+}
+
+.nonaktif{
+	background-color: #CF000F;
+	color: #FFF;
+	padding:5px 15px;
+}
+
+
+.form-body{
+	padding:20px;
+	margin:25px auto 40px auto;
+    border-radius:0px;
+    width:40%;
+	font-family:Raleway;
+	text-align:center;
+}
+
+.judul{
+	padding:10px;
+	font-size:24px;
+	margin:0px auto 20px auto;
+	background-color: #1BBC9B;
+	color:#FFF;
+	font-weight:400;
+}
+
+.judul2 h2{
+	padding:10px;
+	font-size:48px;
+	margin:0px auto 20px auto;
+	color:#1BBC9B;
+	font-weight:400;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="file"]{
+	width:92%;
+	margin-bottom:10px;
+	font-family:raleway;
+	padding:10px;
+	border:1px solid #CCC;
+	font-size:16px;
+	font-weight:300;
+	background:#FFF;
+}
+
+.form textarea{
+	width:92%;
+	margin-bottom:10px;
+	font-family:raleway;
+	padding:10px;
+	border:1px solid #CCC;
+	font-size:16px;
+	font-weight:300;
+	resize:none;
+}
+
+.form select{
+	width:97%;
+	margin-bottom:10px;
+	font-family:raleway;
+	padding:10px;
+	border:1px solid #CCC;
+	font-size:16px;
+	font-weight:300;
+	background:#FFF;
+}
+
+.form button, .form input[type="reset"]{
+    font-family:Raleway;
+    background:#17a084;
+    border-bottom:4px solid #098e73;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:#FFF;
+    font-size:16px;
+    padding:8px 20px;
+    border-radius:4px;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+}
+
+.form button:hover, .form input[type="reset"]:hover{
+    background:#1ed3ae;
+    color:#FFF;
+    border-bottom:4px solid #12b997;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+}
+
+
+.username,
+.password,
+.nama,
+.foto,
+.email,
+.keahlian,
+.jabatan,
+.submit{
+	color:#1BBC9B;
+	font-family:raleway;
+	padding:6px;
+	width:100%;
+	margin-bottom:5px;
+	text-align:left;
+	font-weight:500;
+	font-size:16px;
+}
+
+
+.profile{
+	border:20px solid #149178;
+	padding:20px;
+	margin:25px auto 40px auto;
+    border-radius:0px;
+    width:40%;
+	font-family:Raleway;
+	text-align:center;
+
+}
+
+.profile img{
+	width: 200px;
+	height: 200px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.upload{
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.upload input{
+	text-align: center;
+    font-size:1em;
+    padding:2% 0px;
+    border-radius:8px;
+    border: 1px solid #000;
+   -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+   -o-border-radius:8px;
+    margin-bottom: 2%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    width: 100%;
+}
+
+.upload input:hover{
+	background-color: #FFF;
+   border: 1px solid #CCC;
+}
+
+.upload button{
+	padding: 3% 0;
+    color:#FFF;
+    font-size:1em;
+    background:#18ad8f;
+	border-bottom:6px solid #138971;
+    border-radius:8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+   -o-border-radius:8px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+    margin-bottom: 2%;
+    width: 20%;
+
+}
+
+.upload button:hover{
+   background:#12c6a2;
+   border-bottom:6px solid #0eaf8f;
+   color:#FFF;
+}

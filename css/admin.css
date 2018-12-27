@@ -1,0 +1,124 @@
+html,body,div,span,h2,h3,h4,p,blockquote,a,img,b,u,i,nav ul,nav li,fieldset,form,label,table,tr,th,td,article,footer,header,menu,nav{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,footer, header,menu, nav{display: block;}
+ul{list-style:none;margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+
+body {
+	background-color:#22313F;
+	-webkit-transition: all 0.9s linear;
+	-moz-transition: all 0.9s linear;
+	-o-transition: all 0.9s linear;
+	transition: all 0.9s linear;
+}
+
+.login-body {
+	margin:5% auto;
+	background-color:#FFF;
+	width:350px;
+	padding:20px;
+	border-radius:5px;
+}
+
+.login-header{
+	margin:0px;
+	padding:10px;
+	border-bottom:1px solid #999;
+	text-align:center;
+}
+
+.login-header h2 {
+	color:#000;
+	font-family:raleway;
+	font-size:36px;
+	margin-bottom:15px;
+	font-weight:500;
+}
+
+.login-body-form{
+	font-family:raleway;
+	margin:0x;
+	padding:0px;
+}
+
+.login-form {
+	font-family:raleway;
+	padding:20px;
+	margin:10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"]{
+	font-family:raleway;
+	padding:9px;
+	border:none;
+	width:81%;
+	border-bottom:1px solid #CCC;
+	font-size:16px;
+	font-weight:300;
+}
+
+.login-form input[type="text"]:hover,
+.login-form input[type="password"]:hover{
+	font-family:raleway;
+	background-color:rgba(204,204,204,.2);
+	color:rgba(0,0,0,.8);
+}
+
+.username, .password{
+	font-family:raleway;
+	padding:6px;
+	width:100%;
+	margin-bottom:5px;
+}
+
+.username img{
+	vertical-align:middle;
+}
+
+.password img{
+	vertical-align:middle;
+}
+
+
+.button{
+	font-family:raleway;
+	padding:6px;
+	width:100%;
+	margin-bottom:5px;
+}
+.button-login{
+	font-family:raleway;
+	padding:10px;
+	border:none;
+	width:100%;
+	background:#18ad8f;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+	color:#FFF;
+}
+
+.button-login:hover{
+	font-family:raleway;
+	padding:10px;
+	border:none;
+	width:100%;
+	background:#12c6a2;
+	color:#FFF;
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	transition: all 0.9s ease;
+}
+
+.footer{
+	font-family:raleway;
+	text-align:center;
+}
+
+.footer a{
+	color:#1BBC9B;
+}
